@@ -15,8 +15,8 @@
 
 .card-body .btn {
     margin-top: auto;
-    align-self: flex-start; /* Left-align the button */
-    width: fit-content; /* Auto-scale button width to content */
+    align-self: flex-start;
+    width: fit-content;
 }
 
 .card-body textarea {
