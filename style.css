@@ -1,0 +1,24 @@
+﻿.workflow-card {
+    margin-bottom: 20px;
+}
+
+.workflow-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    align-self: flex-start; /* Left-align the button */
+    width: fit-content; /* Auto-scale button width to content */
+}
+
+.card-body textarea {
+    flex-grow: 1;
+}

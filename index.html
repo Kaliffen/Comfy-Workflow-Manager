@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Collection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Workflow Collection</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <button id="save-button" class="btn btn-success mr-2" title="Save Workflows">
+                    <i class="fas fa-save"></i>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button id="load-button" class="btn btn-info" title="Load Workflows">
+                    <i class="fas fa-upload"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="form-group">
+        <input type="text" class="form-control" id="filter-input" placeholder="Filter by namespace (e.g., X.Y.WorkflowName)">
+    </div>
+
+    <div class="row" id="workflows-container">
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="run.js"></script>
+</body>
+</html>
